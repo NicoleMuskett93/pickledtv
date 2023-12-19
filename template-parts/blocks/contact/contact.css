@@ -1,0 +1,123 @@
+.contact .title-container{
+    display:flex;
+    justify-content: flex-end;
+    margin: 3% 0;
+    
+}
+
+
+.contact .title-container .title-block {
+    background-color: black;
+    padding: 5% 20% 0 2%;
+    
+}
+
+.contact .title-container .title-block  h2 {
+    color: white;
+    margin: 0;
+    font-family: "kaneda-gothic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3.3rem;
+    line-height: 40px;
+
+}
+
+.contact .title-container .title-block .coloured-text {
+    color: var(--yellow);
+}
+
+.contact-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 15% 0 15%;
+    gap:10%;
+}
+
+.contact-container .container-top h3 {
+
+  font-family: "kaneda-gothic",
+  sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.2rem;
+  line-height:40px;
+  color: var(--black);
+  margin:0;
+  padding-bottom:2%;
+}
+
+.contact-container .container-bot p {
+    color: var(--black);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 1rem;
+    padding: 3% 0 0 0;
+    line-height: 20px;
+}
+
+.contact-container .form .container-bot {
+    color: var(--black);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 1rem;
+    padding: 3% 0 0 0;
+    line-height: 20px;
+    
+}
+
+.contact-container .container-bot a {
+    color:var(--black)
+}
+
+
+
+input[type="text"], input[type="email"], input[type="tel"] {
+    border:#707070 2px solid;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 10px 10px 0;
+    width: calc(50% - 10px);
+    padding: 2%;
+    box-sizing: border-box;
+    
+  
+}
+
+textarea {
+    border: #707070 2px solid;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 2%;
+}
+
+
+
+input[type="submit"]{
+    background: none;
+    border:none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration:underline;
+    font-weight:bold;
+    font-size:1rem;
+    cursor: pointer;
+    margin:0;
+    padding:0;
+}
+
+
+@media screen and (max-width: 768px) { 
+
+    /* Mobile */
+    .contact .contact-container {
+        display:block;
+        padding: 20px 30px;
+    }
+
+    .form {
+        margin: 20px 0
+    }
+
+}

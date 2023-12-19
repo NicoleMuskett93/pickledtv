@@ -1,0 +1,262 @@
+/*home and general hero container */
+
+.hero_home .title-container {
+    display:flex;
+    justify-content: space-between;
+    background-color:var(--black);
+    margin: 10% 0 10% 0;
+    height:40vh;
+    position:relative;
+    z-index: 1;
+}
+
+.hero_home .title-container h1 {
+    font-size: 8rem;
+    /* Adjust the size as needed */
+    margin: 0;
+    line-height: 1.2;
+    /* Adjust as needed */
+    text-transform: uppercase;
+    color:var(--white);
+    padding:5%;
+    font-family: "kaneda-gothic", sans-serif;
+    font-weight: 700;
+}
+
+.hero_home .title-container .smaller-text {
+    font-size: 50%;
+    display:block;
+    /* Smaller font size */
+    /* Any other styles for the smaller text */
+    margin-bottom: -30px;
+}
+
+.hero_home .title-container .medium-text {
+    /* Styles for the larger text */
+    font-size: 50%;
+}
+.hero_home.title-container p {
+    color: var(--white);
+}
+
+/*video */
+
+.hero_home .embed-container {
+position: absolute;
+    top: 50%;
+    /* Position it in the middle of the container */
+    left: 65%;
+    /* Position it in the middle of the container */
+    transform: translate(-50%, -50%);
+    /* Center it properly */
+    overflow: hidden;
+    border-radius: 50px;
+    z-index: 2;
+    /* Ensure the video is on top of the black container */
+}
+
+
+.hero_home .embed-container .wp-video{
+    width: 750px !important;
+    border-radius: 50px;
+    
+    
+}
+.hero_home .embed-container .wp-video:not(:hover) .mejs-container .mejs-controls {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.hero_home .embed-container .wp-video .mejscontainer{
+    width:750px;
+    padding: 10%;
+    
+}
+
+/* about hero */
+.hero_about .title-container {
+   padding: 0 5%;
+   margin-bottom:5%;
+   position: relative;
+}
+
+.hero_about .embed-container {
+    overflow: hidden;
+    border-radius: 50px;
+    position: relative;
+    /* Adjust padding as needed */
+}
+
+.hero_about .embed-container .wp-video {
+    width: 100%!important;
+    /* Adjust width and subtract the padding from both sides */
+    border-radius: 50px;
+}
+
+.hero_about .embed-container .wp-video:not(:hover) .mejs-container .mejs-controls {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.hero_about .embed-container .wp-video .mejscontainer {
+    width: 100%;
+    padding: 10px;
+    /* Adjust padding as needed */
+}
+
+.hero_about .title-container .title-block {
+    display: inline-block;
+    position:absolute;
+    bottom: 0;
+    right:0;
+    z-index: 99;
+    margin: 0 0 -105px 0;
+    width:40%;
+}
+
+
+.hero_about .title-container .title-block .container-top {
+    background-color: black; 
+    padding: 15% 10% 0 2%;
+}
+
+ 
+.hero_about .title-block .container-top h2{
+    color:white;
+    margin:0;
+    font-family: "kaneda-gothic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3.3rem;
+    line-height:40px;
+    
+}
+.hero_about .title-block .coloured-text {
+    color:var(--yellow);
+}
+.hero_about .title-block .container-mid {
+    position: relative;
+    /* Ensure container has a positioning context */
+}
+
+
+.hero_about .title-block .container-mid p{
+    color: var(--black);
+    margin:0;
+    font-family: "kaneda-gothic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.2rem;
+    visibility: visible;
+        /* Ensure element visibility */
+        display: block;
+}
+ 
+.hero_about .menu-category {
+    background-color: var(--lightgrey);
+   padding: 1% 2%;
+    margin-left:200px;
+}
+
+
+.hero_about .menu-category .container-menu p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--black);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 0.9rem;
+    letter-spacing: 5px;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 768px) {
+
+    /* For screens smaller than or equal to 768px (typical mobile devices) */
+    .hero_home{
+        height:70vh;
+    }
+    .hero_home .title-container {
+        display: block;
+        background-color: var(--black);
+        margin: 0;
+        height: 50vh;
+        z-index: 1;
+        max-width: 100%;
+        width:100%;
+    }
+
+    .hero_home .title-container h1 {
+        font-size: 7rem;
+    
+    }
+
+    .hero_home .embed-container {
+        width:100%;
+        height:auto;
+        border-radius: 50px;
+        z-index: 2;
+        display: block;
+        margin:10px;
+        position: relative; /* Set position to relative */
+        margin-top: -50px;
+    }
+
+    .hero_home .embed-container .wp-video {
+    width: 300px !important;
+    border-radius: 50px;
+    }
+
+    .hero_about {
+        margin-top:20px;
+    }
+
+    .hero_about .title-container {
+        padding:0;
+    }
+
+    .hero_about .title-container .title-block {
+        bottom:0;
+        width:100%;
+        margin:0;
+        position:relative;
+    }
+
+    .hero_about .menu-category {
+        margin: 0 50px 0 0;
+        padding: 8%;
+    }
+
+    .hero_about .menu-category .container-menu p {
+        font-size: 0.9rem;
+        letter-spacing: 8px;
+        line-height: 30px;
+    }
+    
+
+
+}
+
+@media screen and (max-width: 1300px) {
+
+    /*Tablet/ Laptop */
+    .hero_home .embed-container .wp-video {
+        width: 450px !important; 
+        
+    }
+
+    .hero_home .title-container {
+        height: 30vh;
+        margin: 30px 0;
+    }
+
+    .hero_home .title-container h1 {
+        font-size: 7rem;
+    }
+
+    .hero_about .menu-category {
+        margin: 0 0 0 100px;
+    }
+
+}

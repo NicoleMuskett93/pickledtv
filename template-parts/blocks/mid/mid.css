@@ -1,0 +1,506 @@
+/*general mid block -top */
+
+
+.title-container .title-block {
+   margin-right:200px;
+}
+ 
+.title-container .title-block .container-top {
+    background-color: black;
+    padding: 15% 10% 0 200px;   
+}
+ 
+.title-container .title-block .container-mid, .container-bot{
+    padding-left: 200px;
+}
+ 
+.title-container .title-block .container-top h2{
+    color:white;
+    margin:0;
+    font-family: "kaneda-gothic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3.3rem;
+    line-height:40px;
+    
+}
+.title-container .title-block .coloured-text {
+    color:var(--yellow);
+}
+ 
+.title-container .title-block .container-mid p{
+    color: var(--black);
+    margin:0;
+    font-family: "kaneda-gothic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.2rem;
+}
+ 
+.title-container .title-block .container-bot p{
+    color: var(--black);
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 0.9rem;
+    padding-top: 3%;
+    line-height: 20px;
+    
+}
+ 
+/*category menu */
+ 
+ 
+.title-container .container-menu p {
+    color: var(--black);
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 0.9rem;
+    letter-spacing: 3.2px;
+}
+ 
+ 
+.title-column .mid-content-container .mid-image-container {
+    margin-top:5%;
+    padding-left:200px;
+}
+ 
+.title-column .mid-content-container .mid-image-container img {
+    width: 600px;
+    height: 100%;
+    max-height:100%;
+   object-fit: cover;
+   border-radius: 50px;
+}
+ 
+.mid-info-container {
+    margin-left:200px;
+ 
+}
+ 
+.mid-info-container .row{
+    margin-bottom: 8%;
+ 
+}
+ 
+.mid-info-container .row .wrapper-top h3{
+    font-family: "kaneda-gothic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.2rem;
+    line-height:40px;
+    color: var(--black);
+    margin:0;
+    padding-bottom:2%;
+    
+}
+ 
+.mid-info-container p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--black);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 0.9rem;
+    line-height: 20px;
+}
+ 
+ 
+.mid-info-container .bot-container a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--black);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 20px;
+ 
+ 
+ 
+}
+ 
+.home {
+    display: flex;
+}
+.about {
+    margin:5% 0;
+    display:flex;
+    padding:0;
+}
+
+ 
+.title-column .title-block p{
+    margin-bottom:5%;
+ 
+}
+ 
+.menu-column .container-menu {
+    letter-spacing: 35px;
+    background-color: var(--lightgrey);
+    padding:2% 0% 2% 10%;
+    margin:0 0 0 -150px;
+}
+ 
+.home .menu-column .mid-content-container {
+    display:flex;
+    padding:100px 0 0 0;
+    
+}
+ 
+.menu-column .mid-info-container {
+    margin-left: 10%;
+}
+
+.menu-column .mid-info-container .top-container{
+    display:flex;
+    flex-direction: column;
+    gap:40px;
+    padding-right: 40%;
+}
+
+.home .menu-column {
+    margin-top:250px;
+}
+
+.about #pickledtv-2 .column{
+    margin-top: -200px;
+    
+}
+
+ 
+#pickledtv-2 .column .mid-content-container .mid-image-container img {
+border-radius: 50px 0 0 50px;
+margin-top: 20%;
+}
+
+.home #pickledtv-2 .title-column .mid-content-container {
+    padding-right:20%;
+}
+
+
+
+/*home page */
+
+.home #pickledtv-1 .title-column {
+    width:50%;
+}
+
+.home #pickledtv-2 .title-column {
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    gap: 50px;
+    
+}
+
+.home #pickledtv-1 .title-column .title-block {
+    margin-right: 200px;
+}
+
+
+.home #pickledtv-2 .title-column .mid-content-container .mid-info-container .top-container {
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+}
+
+/*
+About page
+*/
+ 
+
+.about .mid-info-container {
+    margin-top:0;
+    
+}
+
+.about .title-container{
+margin-top:400px;
+position:absolute;
+width:50%;
+}
+
+.about .title-container .container-menu p {
+    padding:3% 5% 3% 15%;
+    line-height: 30px;
+    letter-spacing: 5px;
+}
+.about .column {
+    width: 50%;
+}
+
+.about .column .mid-content-container .mid-info-container{
+    margin:0 5% 0 0;
+}
+
+
+.about .column .mid-content-container .mid-info-container .row .menu-category {
+    background-color: var(--lightgrey);
+    padding:2% 4% 2% 200px;
+}
+
+.about .column .mid-content-container .mid-info-container .row .menu-category p {
+    letter-spacing: 5px;
+    line-height:40px;
+    font-weight: bold;
+}
+
+.about .column .mid-content-container .mid-info-container .row .wrapper-top {
+    margin-left: 200px;
+}
+
+.about .column .mid-content-container .mid-info-container .row .wrapper-bot {
+    margin: 0 75px 0 200px;
+
+}
+
+.about .column .mid-content-container .mid-info-container .bot-container {
+    margin-left: 200px;
+}
+
+.about #pickledtv-1 .mid-content-container .mid-image-container  {
+    margin-left:10%;
+}
+
+
+/* Mobile */
+
+@media screen and (max-width: 768px) {
+
+    /*Home */
+
+    .home {
+        display: block;
+    }
+
+    .home #pickledtv-1 .title-column {
+        width:100%
+    }
+
+    .home #pickledtv-1 .title-column .title-block {
+        margin:0;
+    }
+    .title-container .title-block .container-top {
+        padding: 12% 10% 0 30px;
+        margin-right: 160px;
+    }
+    .title-container .title-block .container-top h2 {
+        font-size:2.8rem;
+        line-height: 30px;
+    }
+
+    .title-container .title-block .container-mid, .container-bot {
+        padding:0 30px;
+    }
+
+    .title-column .mid-content-container .mid-image-container {
+        padding: 0 30px;
+    }
+
+    .home .menu-column {
+        margin:0 0 30px 0;
+    }
+
+    .menu-column .container-menu {
+        margin:0 0 0 50px;
+        padding: 8%;
+    
+    }
+
+    .title-container .container-menu p {
+        font-size: 1rem;
+        letter-spacing: 8px;
+    }
+
+    .home .menu-column .mid-content-container {
+        margin-top:30px;
+        padding: 0;
+    }
+
+    .home #pickledtv-2 .title-column {
+        width:100%;
+        display:block;
+    }
+
+    .title-container .title-block {
+        margin:0;
+    }
+    .mid-info-container {
+        margin:0;
+        padding: 0 30px;
+    }
+
+    .menu-column .mid-info-container .top-container {
+        gap:20px;
+        padding:0;
+    }
+
+    .menu-column .mid-info-container {
+        margin:0;
+    }
+
+    .home #pickledtv-2 .title-column .mid-content-container .mid-info-container .top-container{
+        display:block;
+    }
+
+    #pickledtv-2 .column .mid-content-container .mid-image-container img {
+        margin:0;
+        padding: 10px 0 10px 30px;
+    }
+
+    .home #pickledtv-2 .title-column .mid-content-container {
+        padding:0;
+
+    }
+
+    /* About */
+  
+
+    .about {
+        display:block;
+        margin: 20px 0;
+    }
+    .about .column {
+        width:100%;
+    }
+
+    .about .mid-info-container {
+        padding:0;
+    }
+
+    .about .mid-content-container .mid-image-container {
+        margin: 20px 0 0 50px;
+    }
+
+    .about .column .mid-content-container .mid-info-container {
+        margin: 0;
+    }
+
+
+    .about .column .mid-content-container .mid-info-container .row .wrapper-top {
+        margin:0;
+        padding: 0 30px;
+    }
+    .about .column .mid-content-container .mid-info-container .row .wrapper-bot {
+        margin:0;
+        padding: 0 30px;
+    }
+
+    .about .column .mid-content-container .mid-info-container .row .menu-category {
+        padding: 8%;
+        margin-left: 50px;
+    }
+    .about .column .mid-content-container .mid-info-container .row .menu-category p {
+        line-height:30px;
+
+    }
+
+    .about .column .mid-content-container .mid-info-container .bot-container {
+        margin:0;
+        padding: 0 30px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    /* Tablet and Laptop */
+
+    /*Home */
+
+    .home #pickledtv-1 {
+        margin: 0 0 30px 0;
+    }
+
+    .home #pickledtv-1 .title-column .title-block { 
+        margin:0 50px 0 0 ;
+    }
+
+    .home #pickledtv-1 .title-column .title-block {
+        margin:0;
+    }
+
+    .title-container .title-block .container-top {
+        padding-left: 125px;
+    }
+
+    .title-container .title-block .container-mid, .container-bot {
+        padding-left:125px;
+    }
+
+    .title-column .mid-content-container .mid-image-container {
+        padding-left:125px;
+    }
+    .home .menu-column {
+        margin: 250px 0 0 0;
+    }
+
+    .title-container .container-menu p {
+        font-size:0.7rem;
+    }
+
+    .menu-column .container-menu {
+        margin:0 0 0 10px;
+        padding: 10px 30px 10px 20px;
+    }
+
+    .home .menu-column .mid-content-container{
+        padding:0;
+    }
+    .menu-column .mid-info-container .top-container {
+        margin-top: 30px;
+        gap: 20px;
+    }
+
+    .home #pickledtv-1 .mid-content-container .mid-info-container {
+        margin: 0 0 0 75px;
+    }
+
+    .mid-info-container .row {
+        margin:0;
+    }
+
+    .title-container .title-block { 
+        margin:0;
+    }
+
+
+    .home #pickledtv-2 .title-column {
+        width:70%;
+    }
+
+    .home #pickledtv-2 .column .mid-content-container .mid-image-container {
+        margin: 0 0 0 100px;
+    }
+
+    /* About */
+
+    .about .column .mid-content-container .mid-info-container .row .wrapper-top {
+        margin:0;
+        padding: 0 100px;
+    }
+
+    .mid-info-container .row .wrapper-top h3 {
+        padding:0 0 20px 0;
+    }
+
+    .about .column .mid-content-container .mid-info-container .row .wrapper-bot {
+        margin:0;
+        padding: 0 100px;
+    }
+
+    .about .column .mid-content-container .mid-info-container .row .menu-category {
+        padding:30px 30px 30px 100px;
+        
+    }
+
+    .about .column .mid-content-container .mid-info-container .bot-container {
+        margin: 0;
+        padding: 0 100px;
+    }
+
+    .mid-info-container .row {
+        margin-bottom: 6%;
+    }
+
+
+}

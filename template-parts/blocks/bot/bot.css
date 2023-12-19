@@ -1,0 +1,150 @@
+
+
+.bot .bot-top-container{
+    display:flex;
+    flex-direction: column;
+    row-gap: 15px;
+    width:50%;
+    margin: 0 0 5% 200px;
+    padding-right: 24%;
+
+
+}
+
+
+
+.bot .bot-top-container h3{
+    font-family: "kaneda-gothic", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+    font-size: 2.2rem;
+    line-height:40px; 
+    color: var(--black); 
+    margin:0;
+    padding-bottom:2%;
+    
+}
+
+.bot .bot-top-container p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--black);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 0.9rem;
+    line-height: 20px;
+}
+
+.bot .bot-bot-container{
+    display:flex;
+    justify-content: center;
+}
+.bot .bot-bot-container .bot-image-container{
+    width:50%;
+}
+.bot .bot-bot-container .bot-content-container{
+    margin-left:5%;
+    width:50%;
+}
+
+.bot .bot-bot-container .bot-content-container h3 {
+    font-family: "kaneda-gothic", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+    font-size: 2.2rem;
+    line-height:40px; 
+    color: var(--black); 
+    margin:0 0 5% 0;
+}
+
+.bot .bot-bot-container .bot-content-container .partner-container{
+    display: flex;
+    width:75%;
+    gap:10%;
+}
+
+.bot .bot-bot-container .bot-content-container .row {
+    width:45%;
+}
+.bot .bot-bot-container .bot-content-container .wrapper-bot, .bot .bot-content-container .wrapper-mid {
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    margin: 10px 0 0 0;
+    padding-bottom:2%;
+
+}
+
+.bot  .bot-bot-container .bot-content-container .wrapper-mid h4{
+    margin:0;
+}
+
+.bot .bot-bot-container .bot-content-container .wrapper-bot{
+    margin-top:3%;
+}
+
+.link {
+    margin: 100px 0 50px 0;
+}
+
+.link a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--black);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .bot .bot-top-container {
+        display:block;
+        width:100%;
+        margin:0;
+        padding: 0px 30px 20px 30px;
+    }
+
+    .bot .bot-bot-container {
+        display:block;
+        width:100%;
+    }
+
+    .bot .bot-bot-container .bot-image-container {
+        width:100%;
+        margin-right:30px;
+    }
+
+    .bot .bot-bot-container .bot-content-container {
+        width:100%;
+        padding:10px 30px;
+    }
+
+    .bot .bot-bot-container .bot-content-container {
+        margin:0;
+    }
+
+    .bot .bot-bot-container .bot-content-container .partner-container {
+        width:100%;
+    }
+
+    .link {
+        margin:20px 0 0 0;
+    }
+
+}
+
+@media screen and (max-width: 1300px) {
+    .bot .bot-top-container {
+        margin: 0 0 50px 100px;
+        padding: 0 200px 0 0;
+    }
+
+    .link {
+        margin: 10px 0 0 0;
+    }
+}

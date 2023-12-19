@@ -1,0 +1,75 @@
+.title-block .title-container{
+   width: 28%;
+}
+
+#pickledtv-1 {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -3.5%;
+    z-index:99;
+    margin-bottom: 2%;
+   
+}
+
+.title-block .title-container .container-top {
+    background-color: black;
+    padding: 15% 0 0 0%;
+
+  
+}
+
+#pickledtv-1 .title-container .container-top {
+    padding: 15% 0 0 5%;
+}
+
+.title-block .title-container .container-top h2{
+    color:white;
+    margin:0;
+    font-family: "kaneda-gothic", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+    font-size: 3.3rem;
+    line-height:40px;
+   
+}
+
+
+.title-block .title-container .container-mid p{
+    color: var(--black);
+    margin:0;
+    font-family: "kaneda-gothic", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+    font-size: 2.2rem;
+}
+
+
+.title-block .title-container .container-bot p{
+    color: var(--black);
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+    font-size: 0.9rem;
+    padding-top: 3%;
+    line-height: 20px;
+    
+}
+
+#pickledtv-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+      
+}
+
+
+#pickledtv-2 h2, #pickledtv-2 .container-mid, .container-bot{
+    padding-left:30%;
+}
+
+#pickledtv-5 h2{
+    padding-left:30%;
+}
+#pickledtv-5 .title-container .container-mid p {
+    padding-left:30%;
+}

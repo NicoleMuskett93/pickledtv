@@ -1,0 +1,26 @@
+.menu-cat{
+    letter-spacing: 30px;
+    background-color: var(--lightgrey);
+    padding:1%;
+    margin: 0 0 0 50%;
+    
+}
+
+.menu-cat .container-menu{
+    margin-left:8%;
+
+}
+
+
+.menu-cat .container-menu p {
+    color: var(--black);
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+    font-size: 0.9rem;
+    letter-spacing: 3.2px;
+}
+
+#pickledtv-3{
+    margin-top:-7%;
+}
