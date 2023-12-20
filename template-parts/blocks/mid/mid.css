@@ -2,16 +2,16 @@
 
 
 .title-container .title-block {
-   margin-right:200px;
+   margin-right:300px;
 }
  
 .title-container .title-block .container-top {
     background-color: black;
-    padding: 15% 10% 0 200px;   
+    padding: 15% 10% 0 300px;   
 }
  
 .title-container .title-block .container-mid, .container-bot{
-    padding-left: 200px;
+    padding-left: 300px;
 }
  
 .title-container .title-block .container-top h2{
@@ -63,11 +63,11 @@
  
 .title-column .mid-content-container .mid-image-container {
     margin-top:5%;
-    padding-left:200px;
+    padding-left:25%;
 }
  
 .title-column .mid-content-container .mid-image-container img {
-    width: 600px;
+    width: 100%;
     height: 100%;
     max-height:100%;
    object-fit: cover;
@@ -75,7 +75,7 @@
 }
  
 .mid-info-container {
-    margin-left:200px;
+    margin-left:300px;
  
 }
  
@@ -147,6 +147,14 @@
     padding:100px 0 0 0;
     
 }
+
+.home .menu-column {
+    width:50%;
+}
+
+.home .menu-column {
+    margin: 250px 0 0 0;
+}
  
 .menu-column .mid-info-container {
     margin-left: 10%;
@@ -159,26 +167,32 @@
     padding-right: 40%;
 }
 
-.home .menu-column {
-    margin-top:250px;
-}
-
 .about #pickledtv-2 .column{
     margin-top: -200px;
     
 }
-
  
 #pickledtv-2 .column .mid-content-container .mid-image-container img {
 border-radius: 50px 0 0 50px;
-margin-top: 20%;
+margin-top: 25%;
 }
 
 .home #pickledtv-2 .title-column .mid-content-container {
-    padding-right:20%;
+    padding-right:40%;
 }
 
-
+.home .title-column .title-block .container-top {
+    padding-left:40%;
+}
+.home .title-column .title-block .container-mid {
+    padding-left:40%;
+}
+.home .title-column .title-block .container-bot {
+    padding-left:40%;
+}
+.home #pickledtv-2 .title-container .title-block {
+   margin-right:40%;
+}
 
 /*home page */
 
@@ -195,7 +209,7 @@ margin-top: 20%;
 }
 
 .home #pickledtv-1 .title-column .title-block {
-    margin-right: 200px;
+    margin-right: 40%;
 }
 
 
@@ -204,7 +218,9 @@ margin-top: 20%;
     flex-direction: column;
     gap:50px;
 }
-
+.home #pickledtv-2 .title-column .mid-content-container .mid-info-container {
+    margin-left:40%;
+}
 /*
 About page
 */
@@ -237,7 +253,7 @@ width:50%;
 
 .about .column .mid-content-container .mid-info-container .row .menu-category {
     background-color: var(--lightgrey);
-    padding:2% 4% 2% 200px;
+    padding:2% 4% 2% 300px;
 }
 
 .about .column .mid-content-container .mid-info-container .row .menu-category p {
@@ -247,16 +263,16 @@ width:50%;
 }
 
 .about .column .mid-content-container .mid-info-container .row .wrapper-top {
-    margin-left: 200px;
+    margin-left: 300px;
 }
 
 .about .column .mid-content-container .mid-info-container .row .wrapper-bot {
-    margin: 0 75px 0 200px;
+    margin: 0 75px 0 300px;
 
 }
 
 .about .column .mid-content-container .mid-info-container .bot-container {
-    margin-left: 200px;
+    margin-left: 300px;
 }
 
 .about #pickledtv-1 .mid-content-container .mid-image-container  {
@@ -301,6 +317,12 @@ width:50%;
     .home .menu-column {
         margin:0 0 30px 0;
     }
+
+    #pickledtv-1 .menu-column {
+        width:50%;
+    }
+
+   
 
     .menu-column .container-menu {
         margin:0 0 0 50px;
